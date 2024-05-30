@@ -11,7 +11,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: var(--white);
     font-family: Poppins, sans-serif;
 }
 
@@ -61,6 +60,8 @@ header {
     color: #415a77;
 }
 
+/* https://codepen.io/JacobLett/pen/jZYENy */
+
 body {
     font-family: Poppins, sans-serif;
 }
@@ -70,6 +71,7 @@ blockquote {
     font-size: 40px;
     width: 60%;
     margin: 0 auto;
+    color: var(--white);
  }
  blockquote p {
     font-style: italic;
@@ -98,6 +100,9 @@ blockquote {
  .strong {
     font-weight: bold;
  }
+ .italic {
+  font-style: italic;
+ }
 
  .pic {
     height: 40vh;
@@ -113,6 +118,11 @@ blockquote {
     border-radius: 10px;
     background-color: rgba(7, 18, 30, 0.579);
  }
+
+
+ /* Timeline */
+ /* https://www.w3schools.com/howto/howto_css_timeline.asp */
+
 
  /* The actual timeline (the vertical ruler) */
 .timeline {
@@ -176,7 +186,7 @@ blockquote {
     right: 30px;
     border: medium solid white;
     border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent white;
+    border-color: transparent transparent transparent #778DA9;
   }
   
   /* Add arrows to the right container (pointing left) */
@@ -190,7 +200,7 @@ blockquote {
     left: 30px;
     border: medium solid white;
     border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
+    border-color: transparent #778DA9 transparent transparent;
   }
   
   /* Fix the circle for containers on the right side */
@@ -201,9 +211,10 @@ blockquote {
   /* The actual content */
   .content {
     padding: 20px 30px;
-    background-color: white;
+    background-color: #778DA9;
     position: relative;
     border-radius: 6px;
+    color: white;
   }
   
   /* Media queries - Responsive timeline on screens less than 600px wide */
