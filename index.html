@@ -10,7 +10,10 @@
 </head>
 <body>
     <header>
-        <img src="logo.png" height="34px" class="logo"/>
+        <div id="logo">
+          <img src="logo.svg" height="34px"/>
+          <p class="logo">Alan Turing</p>
+        </div>
         <nav>
             <ul class="nav_links">
                 <li><a href="#">Intro</a></li>
@@ -28,67 +31,126 @@
          </blockquote>
     </div>
     <div class="timeline">
-        <div class="container left">
-          <div class="content">
-            <h2>23.06.1912</h2>
-            <p>Alan Turing wurde geboren</p>
-          </div>
-        </div>
-        <div class="container right">
-          <div class="content">
-            <h2>1922</h2>
-            <p>Einschreibung in die Hazelhurst Prepatory School (Vorschule in Hazelhurst)</p>
-          </div>
-        </div>
-        <div class="container left">
-          <div class="content">
-            <h2>1928</h2>
-            <p>Auseinandersetzung mit Einsteins wissenschaftlichen Arbeiten im Selbststudium</p>
-          </div>
-        </div>
-        <div class="container right">
-          <div class="content">
-            <h2>1934</h2>
-            <p>Abschluss am Kings College</p>
-          </div>
-        </div>
-        <div class="container left">
-          <div class="content">
-            <h2>1936</h2>
-            <p>1. Arbeit über berechenbare Zahlen(Turing-Maschine)</p>
-          </div>
-        </div>
-        <div class="container right">
-          <div class="content">
-            <h2>1940</h2>
-            <p>Erfindung des Werkzeuges <span class="strong italic">"Bombe"</span> zur Entschlüsselung deutscher Enigma Nachrichten</p>
-          </div>
-        </div>
-        <div class="container left">
-          <div class="content">
-            <h2>1942</h2>
-            <p>Zusammenarbeit mit US-Kryptoanalytikern an der Naval Enigma</p>
-          </div>
-        </div>
-        <div class="container right">
-          <div class="content">
-            <h2>1950</h2>
-            <p>Erfindung des Turing-Tests</p>
-          </div>
-        </div>
-        <div class="container left">
-          <div class="content">
-            <h2>1950</h2>
-            <p>Erfindung des Turing-Tests</p>
-          </div>
-        </div>
-        <div class="container right">
-          <div class="content">
-            <h2>7.06.1954</h2>
-            <p>Tod durch Cyanidvergiftung</p>
-          </div>
+
+      <div class="container left">
+        <div class="content">
+          <h2>23.06.1912</h2>
+          <p>Alan Turing wurde geboren</p>
         </div>
       </div>
+      <div class="container right">
+        <div class="content">
+          <h2>1922</h2>
+          <p>Einschreibung in die Hazelhurst Prepatory School (Vorschule in Hazelhurst)</p>
+        </div>
+      </div>
+      <div class="container left">
+        <div class="content">
+          <h2>1928</h2>
+          <p>Auseinandersetzung mit Einsteins wissenschaftlichen Arbeiten im Selbststudium</p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2>1934</h2>
+          <p>Abschluss am Kings College</p>
+        </div>
+      </div>
+      <div class="container left">
+        <div class="content">
+          <h2>1936</h2>
+          <p>1. Arbeit über berechenbare Zahlen(Turing-Maschine)</p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2>1940</h2>
+          <p>Erfindung des Werkzeuges <span class="strong italic">"Bombe"</span> zur Entschlüsselung deutscher Enigma Nachrichten</p>
+        </div>
+      </div>
+      <div class="container left">
+        <div class="content">
+          <h2>1942</h2>
+          <p>Zusammenarbeit mit US-Kryptoanalytikern an der Naval Enigma</p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2>1950</h2>
+          <p>Erfindung des Turing-Tests</p>
+        </div>
+      </div>
+      <div class="container left">
+        <div class="content">
+          <h2>1950</h2>
+          <p>Erfindung des Turing-Tests</p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2>7.06.1954</h2>
+          <p>Tod durch Cyanidvergiftung</p>
+        </div>
+      </div>
+    </div>
+    <form id="survey-form">
+      <h1 id="title">Quiz</h1>
+      <div class="question-div">
+        <p class="quiz-question">What would you like to see improved?</p>
+        <label for="front-end-projects"><input type="checkbox" id="front-end-projects" name="change" class="input-checkbox" value="front-end">Front End Projects</label>
+        <br>
+        <label for="back-end-projects"><input type="checkbox" id="back-end-projects" name="change" class="input-checkbox" value="back-end">Back End Projects</label>
+        <br>
+        <label for="challenges"><input type="checkbox" id="challenges" name="change" class="input-checkbox" value="challenges">Challenges</label>
+        <br>
+        <label for="videos"><input type="checkbox" id="videos" name="change" class="input-checkbox" value="videos">Videos</label>
+        <br>
+        <label for="forum"><input type="checkbox" id="forum" name="change" class="input-checkbox" value="forum">Forum</label>
+        <br>
+      </div>
+      <div class="question-div">
+        <p class="quiz-question">What would you like to see improved?</p>
+        <label for="front-end-projects"><input type="checkbox" id="front-end-projects" name="change" class="input-checkbox" value="front-end">Front End Projects</label>
+        <br>
+        <label for="back-end-projects"><input type="checkbox" id="back-end-projects" name="change" class="input-checkbox" value="back-end">Back End Projects</label>
+        <br>
+        <label for="challenges"><input type="checkbox" id="challenges" name="change" class="input-checkbox" value="challenges">Challenges</label>
+        <br>
+        <label for="videos"><input type="checkbox" id="videos" name="change" class="input-checkbox" value="videos">Videos</label>
+        <br>
+        <label for="forum"><input type="checkbox" id="forum" name="change" class="input-checkbox" value="forum">Forum</label>
+        <br>
+      </div>
+      <div class="question-div">
+        <p class="quiz-question">What would you like to see improved?</p>
+        <label for="front-end-projects"><input type="checkbox" id="front-end-projects" name="change" class="input-checkbox" value="front-end">Front End Projects</label>
+        <br>
+        <label for="back-end-projects"><input type="checkbox" id="back-end-projects" name="change" class="input-checkbox" value="back-end">Back End Projects</label>
+        <br>
+        <label for="challenges"><input type="checkbox" id="challenges" name="change" class="input-checkbox" value="challenges">Challenges</label>
+        <br>
+        <label for="videos"><input type="checkbox" id="videos" name="change" class="input-checkbox" value="videos">Videos</label>
+        <br>
+        <label for="forum"><input type="checkbox" id="forum" name="change" class="input-checkbox" value="forum">Forum</label>
+        <br>
+      </div>
+      <div class="question-div">
+        <p class="quiz-question">What would you like to see improved?</p>
+        <label for="front-end-projects"><input type="checkbox" id="front-end-projects" name="change" class="input-checkbox" value="front-end">Front End Projects</label>
+        <br>
+        <label for="back-end-projects"><input type="checkbox" id="back-end-projects" name="change" class="input-checkbox" value="back-end">Back End Projects</label>
+        <br>
+        <label for="challenges"><input type="checkbox" id="challenges" name="change" class="input-checkbox" value="challenges">Challenges</label>
+        <br>
+        <label for="videos"><input type="checkbox" id="videos" name="change" class="input-checkbox" value="videos">Videos</label>
+        <br>
+        <label for="forum"><input type="checkbox" id="forum" name="change" class="input-checkbox" value="forum">Forum</label>
+        <br>
+      </div>
+      <div>
+        <button type="submit" id="submit">Submit</button>
+      </div>
+    </form>
     <footer>
 
     </footer>
