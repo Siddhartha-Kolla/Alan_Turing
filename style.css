@@ -293,13 +293,13 @@ blockquote {
   text-align: center;
   color: white;
 }
-#survey-form {
+#question-form {
   border-radius: 5px;
   background-color: rgba(27, 27, 50, 0.8);
   font-weight: 400;
   margin: 10vh 10vh;
 }
-#survey-form > div {
+#question-form > div {
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 20px;
@@ -344,4 +344,8 @@ select {
   font-size: 17px;
   padding-left: 0.75rem;
   color: #495057;
+}
+
+.innovation {
+  margin: 10vh 10vh
 }
