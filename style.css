@@ -359,9 +359,20 @@ select {
 }
 
 .innovation {
-	margin: 10vh 10vh
+	margin: 10vh 10vh;
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-content: center;
+  width: 50%;
+  background-color: white;
 }
 
+.innov-grid {
+  display: flex;
+  justify-content: center;
+}
 
 
 .auto  {
@@ -374,4 +385,20 @@ select {
 
 .green {
 	accent-color: green;
+}
+
+.innov-pic {
+  height: 40vh;
+  /* width: 20vh; */
+  /* object-fit:cover; */
+}
+
+.innov-item {
+  background-color: black;
+  border-color: bisque;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  padding: 10vh 3vw;
 }

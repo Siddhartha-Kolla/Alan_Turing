@@ -72,7 +72,7 @@ document.getElementById("question-form").innerHTML += `<h1 id="title">Quiz</h1>
 for (let i=0;i<questions_diff.length;i++) {
   document.getElementById("question-form").innerHTML += `<div class="question-div" id="question-${i+1}">
           <p class="quiz-question">${questions_diff[i][0]}</p>
-          <label for="${questions_diff[i][1]}"><input type="radio" name=${i+1} class="input-radio auto" value="${questions_diff[i][1]}" checked>${questions_diff[i][1]}</label>
+          <label for="${questions_diff[i][1]}"><input type="radio" name=${i+1} class="input-radio auto" value="${questions_diff[i][1]}" checked >${questions_diff[i][1]}</label>
           <br>
           <label for="${questions_diff[i][2]}"><input type="radio" name=${i+1} class="input-radio auto" value="${questions_diff[i][2]}">${questions_diff[i][2]}</label>
           <br>
@@ -86,6 +86,6 @@ for (let i=0;i<questions_diff.length;i++) {
 
 document.getElementById("question-form").innerHTML += `
 <div>
-  <button type="submit" id="submit">Submit</button>
+  <button type="submit" id="submit" onclick="window.location='#question-form';">Submit</button>
 </div>
 `

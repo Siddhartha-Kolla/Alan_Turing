@@ -70,8 +70,3 @@ document.getElementById("question-form").addEventListener('submit', function(eve
         }
 
 });
-
-var s = document.querySelectorAll('input[name="1"]');   
-
-for (let x=0;x<s.length;x++) {
-    console.log(s[x].value);}
