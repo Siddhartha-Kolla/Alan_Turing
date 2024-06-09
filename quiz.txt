@@ -1,0 +1,47 @@
+Alan Turing gilt als Vater der _________.
+Datenbanken
+künstlichen Intelligenz
+Netzwerktechnik
+Spieleentwicklung
+
+Das „Turing-Test“ Konzept dient dazu, die Fähigkeit einer Maschine zu bewerten, _________ zu imitieren.
+Menschliches Denken
+Maschinelles Lernen
+Datenverarbeitung
+Computergrafik
+
+Alan Turing arbeitete während des Zweiten Weltkriegs in _________.
+Bletchley Park
+Silicon Valley
+CERN
+MIT
+
+Alan Turing wurde 1952 wegen _________ verurteilt.
+Spionage
+Hochverrat
+Homosexualität
+Diebstahl
+
+Alan Turing wurde 2013 posthum von der britischen Regierung _________.
+zu einem Ritter geschlagen
+mit dem Nobelpreis geehrt
+rehabilitiert
+zum Präsidenten ernannt
+
+Turing entwickelte das Konzept der „_________“, die als abstrakte Maschine zur Modellierung von Berechnungen dient.
+Universalmaschine
+Finite-Automaten
+Von-Neumann-Architektur
+Pascaline
+
+In welchem Jahr wurde Alan Turing geboren?
+1902
+1912
+1922
+1932
+
+Alan Turing starb 1954 durch _________.
+Autounfall
+Herzinfarkt
+Vergiftung
+Erschießung

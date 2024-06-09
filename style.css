@@ -349,3 +349,17 @@ select {
 .innovation {
   margin: 10vh 10vh
 }
+
+
+
+.auto  {
+  accent-color: auto;
+}
+
+.red {
+  accent-color: red;
+}
+
+.green {
+  accent-color: green;
+}
