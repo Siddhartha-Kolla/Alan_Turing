@@ -4,7 +4,7 @@
 
 :root {
     --dark-blue : #0d1b2a;
-    --white: #e0e1dd;
+    --white: white;
 }
 
 *{
@@ -13,6 +13,10 @@
     box-sizing: border-box;
     font-family: Poppins, sans-serif;
     color: var(--white);
+}
+
+html {
+	scroll-behavior: smooth;
 }
 
 body {
@@ -30,9 +34,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    padding: 30px , 40%;
-    margin: 15px 0;
+    width: 98%;
+    margin: 3vh 0;
+	height: 7vh;
 
 }
 
@@ -60,7 +64,7 @@ header {
 
 .nav_links li {
     display: inline-block;
-    padding: 0 20px;
+    padding: 0 1.5vw;
 
 }
 
@@ -111,10 +115,10 @@ blockquote {
  }
 
  .strong {
-    font-weight: bold;
+	font-weight: bold;
  }
  .italic {
-  font-style: italic;
+	font-style: italic;
  }
 
  .pic {
@@ -130,6 +134,14 @@ blockquote {
     margin: 10vh 10vh;
     border-radius: 10px;
     background-color: rgba(7, 18, 30, 0.579);
+ }
+
+ .intro-box {
+	display: flex;
+	width: 100%;
+	height: 87vh;
+	align-items: center;
+	justify-content: center;
  }
 
 
@@ -267,62 +279,62 @@ blockquote {
 
 /* Form css */
 .hint {
-  font-family: Roboto;
-  font-weight: 200;
+	font-family: Roboto;
+	font-weight: 200;
 }
 .input-radio,.input-checkbox {
-  transform: scale(1.25);
-  margin-right: 0.625rem;
+	transform: scale(1.25);
+	margin-right: 0.625rem;
 }
 .label{
-  line-height: 2.5;
-  font-size: 20px;
-  color: var(--white);
+	line-height: 2.5;
+	font-size: 20px;
+	color: var(--white);
 }
 #title {
-  font-weight: 400;
-  line-height: 1.2;
-  text-align: center;
-  color: white;
-  padding-top: 50px;
-  font-size: 37px;
+	font-weight: 400;
+	line-height: 1.2;
+	text-align: center;
+	color: white;
+	padding-top: 50px;
+	font-size: 37px;
 }
 #description {
-  font-size: 20px;
-  font-weight: 200;
-  text-align: center;
-  color: white;
+	font-size: 20px;
+	font-weight: 200;
+	text-align: center;
+	color: white;
 }
 #question-form {
-  border-radius: 5px;
-  background-color: rgba(27, 27, 50, 0.8);
-  font-weight: 400;
-  margin: 10vh 10vh;
+	border-radius: 5px;
+	background-color: rgba(27, 27, 50, 0.8);
+	font-weight: 400;
+	margin: 10vh 10vh;
 }
 #question-form > div {
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 20px;
 }
 #comments {
-  width: 100%;
-  height: 150px;
-  font-size: 17.5px;
+	width: 100%;
+	height: 150px;
+	font-size: 17.5px;
 }
 #submit {
-  width: 101%;
-  height: 50px;
-  background-color: #37af65;
-  color: inherit;
-  border: 2px solid #37af65;
-  border-radius: 2px;
-  font-size: 20px;
-  margin-bottom: 15px;
+	width: 101%;
+	height: 50px;
+	background-color: #37af65;
+	color: inherit;
+	border: 2px solid #37af65;
+	border-radius: 2px;
+	font-size: 20px;
+	margin-bottom: 15px;
 }
 .quiz-question {
-  line-height: 0.20;
-  font-size: 20px;
-  padding: 4vh 0;
+	line-height: 0.20;
+	font-size: 20px;
+	padding: 4vh 0;
 }
 /* question-div > input {
   height: 37px;
@@ -334,32 +346,32 @@ blockquote {
   color: #495057;
 } */
 label {
-  font-size: 20px;
+	font-size: 20px;
 }
 select {
-  width : 102%;
-  height: 39px;
-  border: 1px solid #ced4da;
-  border-radius: 6px;
-  font-size: 17px;
-  padding-left: 0.75rem;
-  color: #495057;
+	width : 102%;
+	height: 39px;
+	border: 1px solid #ced4da;
+	border-radius: 6px;
+	font-size: 17px;
+	padding-left: 0.75rem;
+	color: #495057;
 }
 
 .innovation {
-  margin: 10vh 10vh
+	margin: 10vh 10vh
 }
 
 
 
 .auto  {
-  accent-color: auto;
+	accent-color: auto;
 }
 
 .red {
-  accent-color: red;
+	accent-color: red;
 }
 
 .green {
-  accent-color: green;
+	accent-color: green;
 }
