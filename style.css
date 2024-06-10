@@ -365,8 +365,8 @@ select {
   grid-template-rows: 1fr 1fr 1fr 1fr;
   justify-content: center;
   align-content: center;
-  width: 50%;
-  background-color: white;
+  width: 75%;
+  /* background-color: white; */
 }
 
 .innov-grid {
@@ -388,14 +388,13 @@ select {
 }
 
 .innov-pic {
-  height: 40vh;
-  /* width: 20vh; */
-  /* object-fit:cover; */
+  height: 100%;
+  width: 37.5vw;
+  object-fit:cover;
 }
 
 .innov-item {
   background-color: black;
-  border-color: bisque;
   display: flex;
   align-items: center;
   justify-content: center;
