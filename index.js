@@ -69,4 +69,11 @@ document.getElementById("question-form").addEventListener('submit', function(eve
             alert("All answers are correct");
         }
 
+    document.getElementById("points-div").style.display="flex";
+    let points_value = parseInt(document.getElementById("points-p").innerHTML);
+    let repeat_value = parseInt(document.getElementById("repeat-p").innerHTML);
+    document.getElementById("points-p").innerHTML = ` ${correct.length}\\${correct_questions.length}`;
+    document.getElementById("repeat-p").innerHTML = repeat_value + 1;
+
+
 });

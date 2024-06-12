@@ -134,6 +134,7 @@ blockquote {
     margin: 10vh 10vh;
     border-radius: 10px;
     background-color: rgba(7, 18, 30, 0.579);
+    box-shadow: 15px 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19),5px 0 8px 0 rgba(0, 0, 0, 0.2);
  }
 
  .intro-box {
@@ -184,7 +185,7 @@ blockquote {
     height: 25px;
     right: -17px;
     background-color: white;
-    border: 4px solid #FF9F55;
+    border: 4px solid #70A9A1;
     top: 15px;
     border-radius: 50%;
     z-index: 1;
@@ -211,7 +212,7 @@ blockquote {
     right: 30px;
     border: medium solid white;
     border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent #778DA9;
+    border-color: transparent transparent transparent #1B263B;
   }
   
   /* Add arrows to the right container (pointing left) */
@@ -225,7 +226,7 @@ blockquote {
     left: 30px;
     border: medium solid white;
     border-width: 10px 10px 10px 0;
-    border-color: transparent #778DA9 transparent transparent;
+    border-color: transparent #1B263B transparent transparent;
   }
   
   /* Fix the circle for containers on the right side */
@@ -236,10 +237,11 @@ blockquote {
   /* The actual content */
   .content {
     padding: 20px 30px;
-    background-color: #778DA9;
+    background-color: #1B263B;
     position: relative;
     border-radius: 6px;
     color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   
   /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -366,7 +368,6 @@ select {
   justify-content: center;
   align-content: center;
   width: 75%;
-  /* background-color: white; */
 }
 
 .innov-grid {
@@ -394,7 +395,6 @@ select {
 }
 
 .innov-item {
-  /* background-color: rgba(27, 27, 50, 0.8); */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -416,4 +416,12 @@ select {
 
 .border-bottom {
   border-bottom: 0.25vh solid white;
+}
+
+#points-div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  font-weight: bold;
+  font-style: italic;
 }

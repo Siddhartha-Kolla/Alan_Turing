@@ -66,6 +66,10 @@ for (let i = 0;i<lines.length;i++) {
 console.log(questions_diff)
 
 document.getElementById("question-form").innerHTML += `<h1 id="title">Quiz</h1>
+<div id="points-div">
+  <div><span>Score: <span id="points-p"></span></span></div>
+  <div><span>Quiz repeated: <span id="repeat-p">-1</span></span></div>
+</div>
 `
 
 
@@ -85,7 +89,13 @@ for (let i=0;i<questions_diff.length;i++) {
 }
 
 document.getElementById("question-form").innerHTML += `
+<div></div>
+<div></div>
 <div>
   <button type="submit" id="submit" onclick="window.location='#question-form';">Submit</button>
 </div>
+<div></div>
+<div></div>
 `
+
+document.getElementById("points-div").style.display="none";
