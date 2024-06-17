@@ -1,3 +1,5 @@
+
+/* Farbpalette */
 /* https://coolors.co/0d1b2a-1b263b-415a77-778da9-e0e1dd */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -86,15 +88,17 @@ body {
     font-family: Poppins, sans-serif;
 }
 
+/* Von externen Quelle */
+
 blockquote {
-    font-family: Poppins, sans-serif;
-    font-size: 2.5vw;
-    width: 60%;
+    font-family: Poppins, sans-serif; /*Ich*/
+    font-size: 2.5vw; /*Ich*/
+    width: 60%; 
     margin: 0 auto;
-    color: var(--white);
+    color: var(--white); /*Ich*/
  }
  blockquote p {
-    font-style: italic;
+    font-style: italic; /*Ich*/
     margin-bottom: 0;
  }
  
@@ -102,7 +106,7 @@ blockquote {
  blockquote p::after {
     content: "“";
     font-family: Georgia;
-    font-size: 9vw;
+    font-size: 9vw;/*Ich*/
     margin: -2rem 0 0 -4rem;
     position: absolute;
     opacity: 0.5;
@@ -114,8 +118,10 @@ blockquote {
  }
  
  blockquote cite {
-    font-size: 2.5vw;
+    font-size: 2.5vw; /*Ich*/
  }
+
+ /* Ende der "externen Quelle" */
 
  .strong {
 	font-weight: bold;
@@ -137,7 +143,7 @@ blockquote {
     margin: 10vh 10vh;
     border-radius: 10px;
     background-color: rgba(7, 18, 30, 0.579);
-    box-shadow: 15px 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19),5px 0 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 15px 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19),5px 0 8px 0 rgba(0, 0, 0, 0.2); /*Von https://getcssscan.com/css-box-shadow-examples*/
  }
 
  .intro-box {
@@ -187,8 +193,8 @@ blockquote {
     width: 25px;
     height: 25px;
     right: -17px;
-    background-color: white;
-    border: 4px solid #70A9A1;
+    background-color: white;/*Ich*/
+    border: 4px solid #70A9A1;/*Ich*/
     top: 15px;
     border-radius: 50%;
     z-index: 1;
@@ -240,10 +246,10 @@ blockquote {
   /* The actual content */
   .content {
     padding: 20px 30px;
-    background-color: #1B263B;
+    background-color: #1B263B;/*Ich*/
     position: relative;
     border-radius: 6px;
-    color: white;
+    color: white;/*Ich*/
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   
@@ -280,6 +286,8 @@ blockquote {
     }
   }
 
+
+/* Ende externen Quelle */
 
 
 /* Form css */

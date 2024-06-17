@@ -32,15 +32,6 @@ document.getElementById("question-form").addEventListener('submit', function(eve
         }
     }
 
-    // if (correct.length == correct_questions.length) {
-    //     alert("All answers are correct");
-    // }
-    // else {
-    //     var w = wrong.join(", ")
-    //     var c = correct.join(", ")
-    //     alert("The answers for "+c+" are correct, but the answers for "+w+" are wrong.");
-    // }
-
     for (let i=0 ; i < correct.length;i++) {
         var s = document.querySelectorAll(`input[name="${correct[i]}"]`);
         for (let x=0;x<s.length;x++) {
