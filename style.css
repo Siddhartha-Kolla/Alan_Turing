@@ -1,7 +1,9 @@
 
-/* Farbpalette */
+/* Farbpalette  von Coolors*/
 /* https://coolors.co/0d1b2a-1b263b-415a77-778da9-e0e1dd */
 
+
+/* Font von Google API */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
@@ -290,7 +292,7 @@ blockquote {
 /* Ende externen Quelle */
 
 
-/* Form css */
+/* Form css von mir */
 .hint {
 	font-family: Roboto;
 	font-weight: 200;
